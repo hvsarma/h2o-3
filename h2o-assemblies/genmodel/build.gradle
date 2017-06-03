@@ -44,3 +44,6 @@ shadowJar {
 artifacts {
   archives shadowJar
 }
+
+jar.enabled = false
+build.dependsOn shadowJar
